@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+.container{
+    overflow: hidden;
+    margin: 100px auto;
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container textarea{
+    background-color: transparent;
+    color: white;
+    width: 50%;
+    height: 300px;
+    padding: 10px;
+    margin: auto ;
+    margin-bottom: 10px;
+    resize: none;
+}
+.container .list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+.list select{
+    flex: 1;
+    background-color: transparent;
+    color: white;
+}
+.list select option{
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.493);
+}
+.list button,.list select{
+    padding: 2px;
+}
